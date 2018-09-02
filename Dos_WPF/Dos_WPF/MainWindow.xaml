@@ -22,8 +22,15 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <TreeView Grid.Column="0" Grid.Row="0" Background="LightGray">
-                
             </TreeView>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button  HorizontalAlignment="Right"  Content="버튼" Width="100" Grid.Row="0"></Button>
+            </Grid>
+            
         </Grid>
     </Grid>
 </Window>
