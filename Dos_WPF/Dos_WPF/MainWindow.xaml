@@ -21,7 +21,7 @@
                 <ColumnDefinition Width="200"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TreeView Grid.Column="0" Grid.Row="0" Background="Aqua">
+            <TreeView Grid.Column="0" Grid.Row="0" Background="LightGray">
                 
             </TreeView>
         </Grid>
